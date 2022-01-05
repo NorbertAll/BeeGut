@@ -1,0 +1,87 @@
+{% extends 'store/main.html' %}
+{% load static %}
+{% block content %}
+<div class="container">
+	<br>
+    
+    <section class="Kontakt contactus" id="Kontakt">
+        <h2>Kontakt</h2>
+
+        <li>
+           Email: <i class="fas fa-envelope mr-3">pasiekagutkowscy@gmail.com</i>
+        </li>
+        <li>
+           Adres: <i class="fas fa-map-marker mr-3">Pomorze 66 06-406 Opinogóra Górna</i>
+        </li>
+        <li>
+           Telefon <i class="fas fa-phone mr-3">888 424 444</i>
+        </li>
+<br><br><br><br>
+
+        <h2>Formularz kontaktowy</h2>
+            <form class="my-form" id="formularz" >
+        
+                    <div>
+                        <label for="name">Imię:</label>
+                        <input type="text" id="name" name="name"/>
+                        <span class="komunikat"></span>
+                    </div>
+        
+                    <div>
+                        <label for="surname">Nazwisko:</label>
+                        <input type="text" id="surname" name="surname"/>
+                        <span class="komunikat"></span>
+                    </div>
+        
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email"/>
+                        <span class="komunikat"></span>
+                    </div>
+        
+        
+                    <div class="form-group">
+                      <label for="przykladoweWojewodztwo">Województwo</label>
+                      <select id="przykladoweWojewodztwo" class="form-control selects">
+                        <option selected>Wybierz...</option>
+                        <option>Dolnośląskie</option>
+                        <option>Kujawsko-pomorskie</option>
+                        <option>Lubelskie</option>
+                        <option>Lubuskie</option>
+                        <option>Łódzkie</option>
+                        <option>Małopolskie</option>
+                        <option>Mazowieckie</option>
+                        <option>Opolskie</option>
+                        <option>Podkarpackie</option>
+                        <option>Podlaskie</option>
+                        <option>Pomorskie</option>
+                        <option>Śląskie</option>
+                        <option>Świętokrzyskie</option>
+                        <option>warmińsko-mazurskie</option>
+                        <option>Wielkopolskie</option>
+                        <option>Zachodniopomorskie</option>
+                      </select>
+                    </div>
+        
+                    <div>
+                        <label for="message">Wiadomość:</label>
+                        <textarea id="message" name="message"></textarea>
+                        <span class="komunikat"></span> 
+                        <br>
+                        <button class="btn btn-warning" id="btw-co">Wyślij</button>
+                    </div>
+        
+                        
+                     
+
+                     
+                    
+                    
+        
+        
+        
+        
+            </form>
+            </section>
+</div>
+{% endblock content %}

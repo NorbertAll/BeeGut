@@ -1,0 +1,211 @@
+body{
+	background-image: url(../images/beebg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'PT Serif', serif;
+}
+h1,h2,h3,h4,h5,h6{
+	color:hsl(0, 0%, 30%);
+}
+.text-black{
+	color:hsl(0, 0%, 4%);
+}
+.box-element{
+	box-shadow:hsl(0, 0%, 80%) 0 0 16px;
+	background-color: #f6f883;
+	border-radius: 4px;
+	padding: 10px;
+}
+
+.thumbnail{
+	width: 100%;
+	height: 200px;
+	-webkit-box-shadow: -1px -3px 5px -2px rgba(214,214,214,1);
+    -moz-box-shadow: -1px -3px 5px -2px rgba(214,214,214,1);
+    box-shadow: -1px -3px 5px -2px rgba(214,214,214,1);
+}
+
+.product{
+	border-radius: 0 0 4px 4px;
+}
+.navbar-brand 
+{
+	font-size: 20px;
+	font-weight: 900;
+}
+.nav-link
+{
+	color:black;
+	font-size: 20px;
+	font-weight: 900;
+}
+.bg-bee{
+	background-color: #f6f883;
+	
+}
+
+#cart-icon{
+	width:25px;
+	display: inline-block;
+	margin-left: 15px;
+}
+
+#cart-total{
+	display: block;
+	text-align: center;
+	color:#fff;
+	background-color: red;
+	width: 20px;
+	height: 25px;
+	border-radius: 50%;
+	font-size: 14px;
+}
+
+.col-lg-4, .col-lg-6, .col-lg-8, .col-lg-12{
+	margin-top: 10px;
+}
+
+.btn{
+	border-radius: 0;
+}
+
+.row-image{
+	width: 100px;
+}
+
+.form-field{
+	width:250px;
+	display: inline-block;
+	padding: 5px;
+}
+
+.cart-row{
+	display: flex;
+    align-items: flex-stretch;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ececec;
+
+}
+
+.quantity{
+	display: inline-block;
+	font-weight: 700;
+	padding-right:10px;
+	
+
+}
+
+.chg-quantity{
+	width: 12px;
+	cursor: pointer;
+	display: block;
+	margin-top: 5px;
+	transition:.1s;
+}
+
+.chg-quantity:hover{
+	opacity: .6;
+}
+
+
+.hidden{
+	display: none!important;
+}
+
+.banner{
+	
+	
+    
+    background: url(../images/tlo.jpg);
+    min-height: 100vh;
+    
+    background-position: center;
+    padding: 350px 0 200px;
+	
+   
+    width:100%
+}
+
+.banner h2{
+    margin:0;
+    padding: 0;
+    font-size: 2.8em;
+    color: #ffffff ;
+    font-weight: 1200;
+    text-transform: uppercase;
+}
+.banner p{
+    margin: 1em 0 0;
+    padding: 0;
+    font-size: 1.2em;
+    line-height: 2;
+    color: #fdfdfd ;
+   
+}
+.btnD1{
+    display:line-block;
+    margin: 1em 0 0 ;
+    background: #ff2670;
+    color:#fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: none;
+    font-weight: 800;
+}
+
+.btnD1:hover
+{
+    display:line-block;
+    margin: 1em 0 0 ;
+    background: #ff2670;
+    color:#fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: none;
+    font-weight: 800;
+    text-decoration: none;
+}
+.about-me{
+	background-color: #f6f883;
+
+}
+
+.my-jumbotron-slogan {
+    background:  rgba(0, 0, 0, 0.5);
+    
+   
+
+}
+.my-mission-text{
+	font-weight: 900;
+}
+.my-mission-text::after {
+    content: '';
+    display: block;
+    border: 1px solid black;
+    width: 200px;
+    margin: 30px auto;
+	font-weight: 900;
+}
+
+
+.table-dark
+{
+	background-color: rgb(231, 243, 69);
+}
+.table-duo
+{
+	background-color: #f3ca45;
+}
+.lightgreen {
+    color: lightgreen;
+}
+.selects {
+	width: 20%;
+	}
+	
+.contactus{
+	font-size: 20px;
+	font-weight: 900;
+}

@@ -1,0 +1,110 @@
+{% extends 'store/main.html' %}
+{% load static %}
+{% block content %}
+
+<section class="banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 my-jumbotron-slogan">
+                <h2>BeeGUT</h2>
+                <p>
+                    Firma założona zosatała z Pasji do pszczół bo Jak to powiedział Albert Einstein<br>
+                    „<span class="text-warning font-weight-bold"> Jeśli wyginą pszczoły, człowiekowi zostaną cztery lata istnienia </span>”<br>
+                    <a href="{% url 'store' %}" class="btn btnD1" role="button">Nasz sklep</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div>
+<section class="about-me " id="about-me">
+    
+    <div class="container ">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 text-center">
+                <h2 class="text-uppercase my-mission-text">O Nas </h2>
+                
+                <div class="row">
+                 <div class="col-lg-6 col-sm-12">
+                <p>Jesteśmy nową firma powstałą aby sprzedawać produkty pszczele z własnej oraz zaprzyjaźnionych pasiek.
+                    Powstaliśmy na przełomie roku 2021/2022. Naszą pasją jest pszczelarstwo. 
+                    Nasz miód jest w 100% naturalny jeśli macie państwo ochote zobaczyć naszą pasiekę serdecznie zaprasamy
+                </p> 
+                 </div>
+                 <div class="col-lg-6 d-none d-md-block">
+                     <img src="../../../static/images/ule.jpg" alt="Nasze ule" class="img-fluid">
+
+                 </div>      
+                 </div>
+             </div>
+        </div>
+
+
+    </div>
+ </section>
+<br><br>
+<section class="interesting-facts " id="interesting-facts">
+    
+    <div class="container ">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 text-center">
+                <h2 class="text-uppercase my-mission-text">Ciekawe cytaty</h2>
+                
+                <table class="table table-striped table-dark text-black">
+                 
+                    <tbody>
+                      <tr>
+                        <th scope="row">Jeśli wyginą pszczoły, człowiekowi zostaną cztery lata istnienia" - Albert Einstein</th>
+                       
+                      </tr>
+                      <tr class="table-duo">
+                        <th scope="row">"Rozkosz jest jak pszczoła – miodu trochę, a żądła i boleści wiele." - Piotr Skarga</th>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">Jeśli w kwietniu pszczoły latają, to długie chłody się zapowiadają." </th>
+                        
+                      </tr>
+
+                      <tr class="table-duo">
+                        <th scope="row">"Jeśli pszczoła w styczniu z ula wylatuje, rzadko pomyślny rok nam obiecuje"</th>
+                        
+                      </tr>
+
+
+
+                      <tr>
+                        <th scope="row"> "Słowo jest jak pszczoła: posiada miód i żądło.
+                             Miód chociaż słodki, nadmiarem słodyczy tłumi apetyt i sprowadza mdłości; kochaj z umiarem" - William Szekspir</th>
+                        
+                      </tr>
+
+                      <tr class="table-duo">
+                        <th scope="row">"Co z wosku kapnie, co złodziej drapnie, co adwokat wyszczeka, trzeciego pokolenia nie doczeka."</th>
+                        
+                      </tr>
+
+                      <tr>
+                        <th scope="row">"Księżyc miodem ocieka na ustach szalonych. Żarłoczne są tej nocy ogrody i domy" - Guillaume Apollinaire</th>
+                        
+                      </tr>
+
+                      <tr class="table-duo">
+                        <th scope="row">"Pracowita pszczoła i z gorzkiego ziela miód zbiera."</th>
+                        
+                      </tr>
+                    </tbody>
+                  </table>
+                
+                
+                 
+                 </div>
+             </div>
+        </div>
+
+
+    </div>
+ </section>
+ <br><br>
+{% endblock content %}
